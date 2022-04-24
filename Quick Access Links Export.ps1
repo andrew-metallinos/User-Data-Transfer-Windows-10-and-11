@@ -14,6 +14,8 @@
 
         $PATH
             Pathway used where all files will be temporarily stored.
+        $DriveLetter
+            This will determine which drive to use when copying the files over.
 
 
     .NOTES
@@ -71,3 +73,11 @@ folder to be copied to, followed by a : and then press ENTER"
 #Copy files over to desired drive
 Copy-Item –Path C:\TempQA\ -Destination $DriveLetter\0Files\ -Force
 Copy-Item –Path C:\TempQA\* -Destination $DriveLetter\0Files\TempQA\ -Force
+
+
+
+#Request user input for what drive to copy files to
+Read-Host -Prompt "
+----------------------------------------
+
+The transfer has now been completed. Press ENTER to close this window"
