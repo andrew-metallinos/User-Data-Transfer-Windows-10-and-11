@@ -5,7 +5,8 @@ unable to transfer the drive then transferring everything over manually
 may be required.
 
 The PowerShell files listed below can help ease this process by copying
-everything over with just a few user inputs required.
+everything over to a USB or portable hard drive with just a few user 
+inputs required.
 
 - Quick Access Links Export
 - Quick Access Links Import
