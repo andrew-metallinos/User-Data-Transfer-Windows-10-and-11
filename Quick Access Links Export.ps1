@@ -24,8 +24,6 @@
         To view QA folder = WIN+R > %appdata%\microsoft\windows\recent\automaticdestinations
 
         This works for both Windows 10 & 11
-
-        123
 #>
 
 
