@@ -1,7 +1,7 @@
 ﻿ <#
     .SYNOPSIS
 
-        This function will export all Quick Access
+        This script will export all Quick Access
         links. All you have to do is choose which
         drive to copy the files to.
         
@@ -42,8 +42,8 @@ Write-Host "
     Title: Quick Access Links Export
     Author: Andrew Metallinos <andrew@metallinostech.com.au>
     Creation Date: 24/04/2022
-    Revision Date: 24/04/2022
-    Version: 1.0
+    Revision Date: 25/04/2022
+    Version: 1.1
 
 ========================================
 "

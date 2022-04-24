@@ -1,7 +1,7 @@
 ﻿ <#
     .SYNOPSIS
 
-        This function will import all Quick Access
+        This script will import all Quick Access
         links, all you have to do is choose what
         drive to copy the files from.
 
@@ -38,8 +38,8 @@ Write-Host "
     Title: Quick Access Links Import
     Author: Andrew Metallinos <andrewm@edgeitsolutions.com.au>
     Creation Date: 24/04/2022
-    Revision Date: 24/04/2022
-    Version: 1.0
+    Revision Date: 25/04/2022
+    Version: 1.1
 
 ========================================
 "
