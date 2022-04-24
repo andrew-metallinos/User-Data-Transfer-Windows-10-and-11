@@ -1,8 +1,8 @@
 # User Data Transfer Windows 10/11
 
 If you are wanting to transfer a user over to a new PC and you are
-unable to transfer the drive then transferring everything over manually
-may be required.
+unable to transfer the physical drive then transferring everything 
+over manually may be required.
 
 The PowerShell files listed below can help ease this process by copying
 everything over to a USB or portable hard drive with just a few user 
