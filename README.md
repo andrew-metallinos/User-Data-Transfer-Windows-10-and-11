@@ -12,3 +12,19 @@ inputs required.
 - Quick Access Links Import
 - User Data Export
 - User Data Import
+
+#### FILES THAT WILL BE COPIED ACROSS:
+
+- Quick Access Links
+- 3D Objects
+- Contacts
+- Desktop (positioning not retained)
+- Documents
+- Downloads
+- Favourites
+- Links
+- Music
+- Pictures
+- Searches
+- Videos
+
