@@ -43,7 +43,7 @@ Write-Host "
     Author: Andrew Metallinos <andrew@metallinostech.com.au>
     Creation Date: 24/04/2022
     Revision Date: 25/04/2022
-    Version: 1.1
+    Version: 1.0.0
 
 ========================================
 "
