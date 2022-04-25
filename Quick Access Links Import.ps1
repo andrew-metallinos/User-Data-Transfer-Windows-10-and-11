@@ -36,7 +36,7 @@ Write-Host "
 
 
     Title: Quick Access Links Import
-    Author: Andrew Metallinos <andrewm@edgeitsolutions.com.au>
+    Author: Andrew Metallinos <andrew@metallinostech.com.au>
     Creation Date: 24/04/2022
     Revision Date: 25/04/2022
     Version: 1.0.0
