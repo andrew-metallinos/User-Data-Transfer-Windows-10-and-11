@@ -72,8 +72,7 @@ folder to be copied to, followed by a : and then press ENTER"
 
 
 #Copy files over to desired drive
-Copy-Item –Path C:\TempQA\ -Destination $DriveLetter\0Files\ -Force
-Copy-Item –Path C:\TempQA\* -Destination $DriveLetter\0Files\TempQA\ -Force
+Copy-Item –Path C:\TempQA\ -Destination $DriveLetter\0Files\ -Force -Recurse
 
 
 

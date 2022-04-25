@@ -9,7 +9,7 @@
         - Desktop
         - Documents
         - Downloads
-        - Favourites
+        - Favorites
         - Links
         - Music
         - Pictures
@@ -34,7 +34,7 @@
 
 
 
-Write-Host "$env:USERPROFILE
+Write-Host "
 
 
     ███╗░░░███╗███████╗████████╗░█████╗░██╗░░░░░██╗░░░░░██╗███╗░░██╗░█████╗░░██████╗  ████████╗███████╗░█████╗░██╗░░██╗
@@ -68,17 +68,17 @@ letter with a : and then press ENTER"
 
 
 #Copy files over to desired drive
-Copy-Item -Path "$env:USERPROFILE\3D Objects" -Destination "$DriveLetter\0Files\User Data" -Recurse
-Copy-Item -Path "$env:USERPROFILE\Contacts" -Destination "$DriveLetter\0Files\User Data" -Recurse
-Copy-Item -Path "$env:USERPROFILE\Desktop" -Destination "$DriveLetter\0Files\User Data" -Recurse
-#Copy-Item -Path "$env:USERPROFILE\Documents" -Destination "$DriveLetter\0Files\User Data" -Recurse
-Copy-Item -Path "$env:USERPROFILE\Downloads" -Destination "$DriveLetter\0Files\User Data" -Recurse
-Copy-Item -Path "$env:USERPROFILE\Favorites" -Destination "$DriveLetter\0Files\User Data" -Recurse
-Copy-Item -Path "$env:USERPROFILE\Links" -Destination "$DriveLetter\0Files\User Data" -Recurse
-Copy-Item -Path "$env:USERPROFILE\Music" -Destination "$DriveLetter\0Files\User Data" -Recurse
-Copy-Item -Path "$env:USERPROFILE\Pictures" -Destination "$DriveLetter\0Files\User Data" -Recurse
-Copy-Item -Path "$env:USERPROFILE\Searches" -Destination "$DriveLetter\0Files\User Data" -Recurse
-#Copy-Item -Path "$env:USERPROFILE\Videos" -Destination "$DriveLetter\0Files\User Data" -Recurse
+Copy-Item -Path "$env:UserProfile\3D Objects" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Contacts" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Desktop" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Documents" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Downloads" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Favorites" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Links" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Music" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Pictures" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Searches" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
+Copy-Item -Path "$env:UserProfile\Videos" -Destination "$DriveLetter\0Files\User Data - $env:UserName" -Recurse
 
 
 
@@ -87,6 +87,3 @@ Read-Host -Prompt "
 ========================================
 
 The transfer has now been completed. Press ENTER to close this window"
-
-
-$env:USERPROFILE
