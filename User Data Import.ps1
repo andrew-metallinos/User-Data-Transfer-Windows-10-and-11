@@ -83,3 +83,7 @@ Once pressed this window will close automatically and this process will be compl
 
 #Restart File Explorer
 stop-process -name explorer –force
+
+
+
+$env:USERPROFILE

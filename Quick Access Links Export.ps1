@@ -77,7 +77,7 @@ Copy-Item –Path C:\TempQA\* -Destination $DriveLetter\0Files\TempQA\ -Force
 
 
 
-#Request user input for what drive to copy files to
+#Request user input to close window
 Read-Host -Prompt "
 ----------------------------------------
 
