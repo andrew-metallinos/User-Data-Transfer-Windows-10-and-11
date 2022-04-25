@@ -27,3 +27,5 @@ inputs required.
 - Pictures
 - Searches
 - Videos
+
+Other files can be copied across, simply update the User Data Export/Import files to match the folders you want to target.
